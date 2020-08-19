@@ -1,0 +1,67 @@
+page {
+  background-color: #F2F2F2;
+  padding: 0;
+  margin: 0;
+  font-size: 14rpx;
+}
+.container .banner {
+  position: relative;
+  width: 100%;
+  height: 350rpx;
+}
+.container .banner .banner-img {
+  width: 100%;
+  height: 100%;
+}
+.container .banner .serach {
+  position: absolute;
+  right: 40rpx;
+  top: 40rpx;
+}
+.container .banner .serach .serach-icon {
+  width: 50rpx;
+  height: 50rpx;
+  margin-left: 40rpx;
+}
+.container .nav {
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  height: 120rpx;
+}
+.container .nav .nav-list {
+  text-align: center;
+}
+.container .nav .nav-list .nav-icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+.container .tips {
+  height: 100rpx;
+  background-color: #FFFFFF;
+  margin-top: 4rpx;
+  font-size: 32rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.container .tips .tips-icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+.container .tips .num {
+  color: #525252;
+  font-size: 22rpx;
+}
+

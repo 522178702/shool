@@ -1,0 +1,56 @@
+{
+  "pages": [
+    "pages/startup/startup",
+    "pages/index/index",
+    "pages/me/me",
+    "pages/circle/circle",
+    "pages/start/start",
+    "pages/find/find"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "国学院吧",
+    "navigationBarBackgroundColor": "#F8D714",
+    "backgroundColor": "#FFFFFF"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#F8D714",
+    "borderStyle": "black",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "读吧",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home1.png"
+      },
+      {
+        "pagePath": "pages/circle/circle",
+        "text": "圈子",
+        "iconPath": "static/icons/circle.png",
+        "selectedIconPath": "static/icons/circle1.png"
+      },
+      {
+        "pagePath": "pages/start/start",
+        "text": "开始",
+        "iconPath": "static/icons/start.png",
+        "selectedIconPath": "static/icons/start.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "static/icons/find.png",
+        "selectedIconPath": "static/icons/find1.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "我的",
+        "iconPath": "static/icons/me.png",
+        "selectedIconPath": "static/icons/me1.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

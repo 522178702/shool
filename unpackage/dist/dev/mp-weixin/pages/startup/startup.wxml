@@ -1,0 +1,1 @@
+<view class="startup-bg"><view class="tips-time">{{''+time+' s'}}</view></view>
